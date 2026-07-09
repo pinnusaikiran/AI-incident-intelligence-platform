@@ -1,0 +1,39 @@
+{
+    "model_name": "CatBoost Native",
+    "model_version": "1.0.0",
+    "algorithm": "CatBoostClassifier",
+    "business_problem": "IT Incident SLA Breach Prediction",
+    "primary_metric": "F1 Score",
+    "decision_threshold": 0.5,
+    "training_samples": 113369,
+    "test_samples": 28343,
+    "number_of_features": 18,
+    "feature_names": [
+        "contact_type",
+        "location",
+        "category",
+        "subcategory",
+        "u_symptom",
+        "assignment_group",
+        "assigned_to",
+        "caller_id",
+        "opened_by",
+        "impact",
+        "urgency",
+        "priority",
+        "Hour_sin",
+        "Hour_cos",
+        "Day_of_week_sin",
+        "Day_of_week_cos",
+        "Month_sin",
+        "Month_cos"
+    ],
+    "evaluation_metrics": {
+        "f1_score": 0.337,
+        "average_precision": 0.364,
+        "recall": 0.838,
+        "precision": 0.211,
+        "roc_auc": 0.889,
+        "accuracy": 0.785
+    }
+}

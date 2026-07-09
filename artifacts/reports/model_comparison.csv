@@ -1,0 +1,6 @@
+Model,Feature Type,F1 Score,Average Precision,Recall,Precision,ROC-AUC,Accuracy
+CatBoost (Native),Native Categories,0.337,0.364,0.838,0.211,0.889,0.785
+CatBoost (Encoded),Encoded,0.186,0.116,0.577,0.111,0.682,0.671
+XGBoost,Encoded,0.183,0.117,0.576,0.108,0.676,0.664
+LightGBM,Encoded,0.182,0.116,0.577,0.108,0.675,0.662
+Random Forest,Encoded,0.164,0.099,0.543,0.097,0.647,0.641
