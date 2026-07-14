@@ -9,3 +9,6 @@ jupyter
 catboost
 lightgbm
 optuna
+pytest
+fastapi
+uvicorn

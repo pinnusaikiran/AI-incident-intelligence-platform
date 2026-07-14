@@ -10,27 +10,69 @@
     "decision_threshold": 0.5,
     "training_samples": 113369,
     "test_samples": 28343,
-    "number_of_features": 18,
-    "feature_names": [
-        "contact_type",
-        "location",
-        "category",
-        "subcategory",
-        "u_symptom",
-        "assignment_group",
-        "assigned_to",
-        "caller_id",
-        "opened_by",
-        "impact",
-        "urgency",
-        "priority",
-        "Hour_sin",
-        "Hour_cos",
-        "Day_of_week_sin",
-        "Day_of_week_cos",
-        "Month_sin",
-        "Month_cos"
-    ],
+    "number_of_features": 15,
+    "input_schema": {
+        "contact_type": {
+            "type":"str",
+            "required":true            
+        },
+        "location": {
+            "type":"str",
+            "required":true            
+        },
+        "category": {
+            "type":"str",
+            "required":true            
+        },
+        "subcategory": {
+            "type":"str",
+            "required":true            
+        },
+        "u_symptom": {
+            "type":"str",
+            "required":true            
+        },
+        "assignment_group": {
+            "type":"str",
+            "required":true            
+        },
+        "assigned_to": {
+            "type":"str",
+            "required":true            
+        },
+        "caller_id": {
+            "type":"str",
+            "required":true            
+        },
+        "opened_by": {
+            "type":"str",
+            "required":true            
+        },
+        "impact": {
+            "type":"int",
+            "required":true            
+        },
+        "urgency": {
+            "type":"int",
+            "required":true            
+        },
+        "priority": {
+            "type":"int",
+            "required":true            
+        },
+        "Hour": {
+            "type": "int",
+            "required": true
+        },
+        "Day_of_week": {
+            "type": "str",
+            "required": true
+        },
+        "Month": {
+            "type": "str",
+            "required": true
+        }
+        },
     "evaluation_metrics": {
         "f1_score": 0.338,
         "average_precision": 0.367,
@@ -38,7 +80,7 @@
         "precision": 0.211,
         "roc_auc": 0.89,
         "accuracy": 0.785
-    },
+        },
     "training_date": "2026-07-10 08:50:44",
     "author": "Sai Kiran Pinnu"
 }
