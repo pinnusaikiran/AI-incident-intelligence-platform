@@ -14,14 +14,14 @@ app = FastAPI(
     ),
     version="1.0.0",
 )
-# register_exception_handlers(app)
+register_exception_handlers(app)
 
 
-# app.include_router(health_router)
-# app.include_router(prediction_router)
+app.include_router(health_router)
+app.include_router(prediction_router)
 
 
-# @app.get("/")
+@app.get("/")
 def home():
     """
     Root endpoint.
