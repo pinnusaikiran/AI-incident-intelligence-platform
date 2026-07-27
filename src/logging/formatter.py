@@ -1,5 +1,5 @@
 import logging
-from context import request_id
+from src.logging.context import request_id
 
 class RequestFormatter(logging.Formatter):
     def format(self,record):

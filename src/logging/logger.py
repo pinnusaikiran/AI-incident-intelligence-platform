@@ -1,7 +1,7 @@
 import logging
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
-from formatter import RequestFormatter
+from src.logging.formatter import RequestFormatter
 
 
 def configure_logging():

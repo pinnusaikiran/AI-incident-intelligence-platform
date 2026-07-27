@@ -1,2 +1,30 @@
 2026-07-17 01:57:44,556 | INFO | __main__ | Application Started
 2026-07-17 01:57:56,735 | INFO | __main__ | Application Started
+2026-07-26 17:16:24,591 | INFO | - | main.py | <module> | Logging configured.
+2026-07-26 17:16:24,591 | INFO | - | main.py | <module> | Application startup completed.
+2026-07-26 17:16:35,617 | INFO | 4aa3b092-af5c-484e-9917-5c8e28edb9f5 | request_id.py | dispatch | GET /
+2026-07-26 17:16:35,622 | INFO | 4aa3b092-af5c-484e-9917-5c8e28edb9f5 | request_id.py | dispatch | GET / Status=200 Duration=0.005s
+2026-07-26 17:16:45,182 | INFO | fc502a28-4c06-4cf4-ba61-6ea6cb91d7c2 | request_id.py | dispatch | GET /
+2026-07-26 17:16:45,186 | INFO | fc502a28-4c06-4cf4-ba61-6ea6cb91d7c2 | request_id.py | dispatch | GET / Status=200 Duration=0.002s
+2026-07-26 17:16:45,286 | INFO | 723148f9-0f92-407e-928f-3717ffa77871 | request_id.py | dispatch | GET /favicon.ico
+2026-07-26 17:16:45,287 | INFO | 723148f9-0f92-407e-928f-3717ffa77871 | request_id.py | dispatch | GET /favicon.ico Status=404 Duration=0.001s
+2026-07-26 17:16:52,210 | INFO | 9b3553c7-6f53-43eb-99c8-5150cd1f1b01 | request_id.py | dispatch | GET /docs
+2026-07-26 17:16:52,210 | INFO | 9b3553c7-6f53-43eb-99c8-5150cd1f1b01 | request_id.py | dispatch | GET /docs Status=200 Duration=0.000s
+2026-07-26 17:17:18,848 | INFO | f2fd19e6-fd1f-4534-830d-a9b0311aa688 | request_id.py | dispatch | GET /predict
+2026-07-26 17:17:18,849 | INFO | f2fd19e6-fd1f-4534-830d-a9b0311aa688 | request_id.py | dispatch | GET /predict Status=405 Duration=0.001s
+2026-07-26 17:17:31,332 | INFO | 3154b2e6-7171-493b-909b-aedbdb38b6b7 | request_id.py | dispatch | GET /docs
+2026-07-26 17:17:31,334 | INFO | 3154b2e6-7171-493b-909b-aedbdb38b6b7 | request_id.py | dispatch | GET /docs Status=200 Duration=0.001s
+2026-07-26 17:17:35,607 | INFO | d3fcb285-7fbc-43fe-965b-00b13fd019eb | request_id.py | dispatch | GET /openapi.json
+2026-07-26 17:17:35,660 | INFO | d3fcb285-7fbc-43fe-965b-00b13fd019eb | request_id.py | dispatch | GET /openapi.json Status=200 Duration=0.053s
+2026-07-26 17:18:11,500 | INFO | 5ab9e877-0820-4ea6-ba63-ef6efdeb906d | request_id.py | dispatch | GET /docs
+2026-07-26 17:18:11,501 | INFO | 5ab9e877-0820-4ea6-ba63-ef6efdeb906d | request_id.py | dispatch | GET /docs Status=200 Duration=0.000s
+2026-07-26 17:18:18,174 | INFO | 82d58e8d-3481-465c-b26e-b3cb04a3e4ba | request_id.py | dispatch | GET /openapi.json
+2026-07-26 17:18:18,174 | INFO | 82d58e8d-3481-465c-b26e-b3cb04a3e4ba | request_id.py | dispatch | GET /openapi.json Status=200 Duration=0.000s
+2026-07-26 17:21:33,187 | INFO | bb74b8ea-b07d-44ae-9ff7-636723ac0193 | request_id.py | dispatch | POST /predict
+2026-07-26 17:21:38,471 | INFO | bb74b8ea-b07d-44ae-9ff7-636723ac0193 | request_id.py | dispatch | POST /predict Status=422 Duration=5.283s
+2026-07-26 17:22:45,660 | INFO | 2e86f2fa-b670-432e-b116-9f80d5186e85 | request_id.py | dispatch | POST /predict
+2026-07-26 17:22:45,723 | INFO | 2e86f2fa-b670-432e-b116-9f80d5186e85 | request_id.py | dispatch | POST /predict Status=422 Duration=0.062s
+2026-07-26 17:23:16,085 | INFO | bc75e4ac-ca02-4400-8267-8b26bce847e4 | request_id.py | dispatch | POST /predict
+2026-07-26 17:23:16,086 | INFO | bc75e4ac-ca02-4400-8267-8b26bce847e4 | request_id.py | dispatch | POST /predict Status=422 Duration=0.002s
+2026-07-26 23:47:23,084 | INFO | - | main.py | <module> | Logging configured.
+2026-07-26 23:47:23,091 | INFO | - | main.py | <module> | Application startup completed.

@@ -5,6 +5,18 @@ from api.routes import (
     prediction_router,
 )
 from api.exception_handlers import register_exception_handlers
+from api.middleware.request_id import RequestIDMiddleware
+from src.logging.logger import configure_logging
+import logging
+
+
+configure_logging()
+
+# prediction_service = PredictionService()
+
+logger = logging.getLogger(__name__)
+
+logger.info("Logging configured.")
 
 app = FastAPI(
     title="AI Incident Intelligence Platform API",
@@ -14,6 +26,9 @@ app = FastAPI(
     ),
     version="1.0.0",
 )
+logger.info("Application startup completed.")
+
+app.add_middleware(RequestIDMiddleware)
 register_exception_handlers(app)
 
 

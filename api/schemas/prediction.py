@@ -1,12 +1,12 @@
 from pydantic import BaseModel
-
+from api.schemas.enums import Priority,Urgency,Impact,ContactType
 
 class PredictionRequest(BaseModel):
     """
     Prediction request payload.
     """
 
-    contact_type: str
+    contact_type: ContactType
     location: str
     category: str
     subcategory: str
@@ -15,9 +15,9 @@ class PredictionRequest(BaseModel):
     assigned_to: str
     caller_id: str
     opened_by: str
-    impact: int
-    urgency: int
-    priority: int
+    impact: Impact
+    urgency: Urgency
+    priority: Priority
     Hour: int
     Day_of_week: str
     Month: str
