@@ -12,7 +12,6 @@ import logging
 
 configure_logging()
 
-# prediction_service = PredictionService()
 
 logger = logging.getLogger(__name__)
 
