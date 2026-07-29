@@ -4,11 +4,13 @@ from pathlib import Path
 from src.logging.formatter import RequestFormatter
 
 
-def configure_logging():
+def configure_logging() -> None:
 
+    # Create log directory
     LOGS_DIR=Path("logs")
     LOGS_DIR.mkdir(exist_ok=True)
 
+    # Configure root logger
     root_logger=logging.getLogger()
 
     if root_logger.hasHandlers():
@@ -18,6 +20,7 @@ def configure_logging():
 
     root_logger.setLevel(LOG_LEVEL)
 
+    # Configure handlers
     console_handler=logging.StreamHandler()
 
     application_handler = RotatingFileHandler(
@@ -30,11 +33,13 @@ def configure_logging():
                                         maxBytes=10*1024*1024,
                                         backupCount=5)
 
+    # Configure formatters
     console_formatter=RequestFormatter("%(asctime)s | %(levelname)s | %(request_id)s | %(message)s")
     application_formatter = RequestFormatter(
     "%(asctime)s | %(levelname)s | %(request_id)s | %(filename)s | %(funcName)s | %(message)s")
     error_formatter=RequestFormatter("%(asctime)s | %(levelname)s | %(request_id)s |%(filename)s | %(funcName)s | %(name)s | %(message)s | %(process)d | %(thread)d")
-    
+
+    # Register handlers
     console_handler.setFormatter(console_formatter)
     application_handler.setFormatter(application_formatter)
     error_handler.setFormatter(error_formatter)

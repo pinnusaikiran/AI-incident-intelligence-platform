@@ -15,7 +15,13 @@ configure_logging()
 
 logger = logging.getLogger(__name__)
 
-logger.info("Logging configured.")
+logger.info("=" * 60)
+logger.info("AI Incident Intelligence Platform API v1.0.0")
+logger.info("=" * 60)
+
+
+logger.info("Logging configured")
+
 
 app = FastAPI(
     title="AI Incident Intelligence Platform API",
@@ -25,15 +31,20 @@ app = FastAPI(
     ),
     version="1.0.0",
 )
-logger.info("Application startup completed.")
 
 app.add_middleware(RequestIDMiddleware)
-register_exception_handlers(app)
+logger.info("Middleware registered")
 
+register_exception_handlers(app)
+logger.info("Exception handlers registered")
 
 app.include_router(health_router)
 app.include_router(prediction_router)
+logger.info("Routers registered")
 
+logger.info("Application startup completed.")
+
+logger.info("=" * 60)
 
 @app.get("/")
 def home():

@@ -1,0 +1,14 @@
+-r requirements.txt
+
+pytest
+
+jupyter
+
+matplotlib
+seaborn
+
+optuna
+
+xgboost
+
+lightgbm

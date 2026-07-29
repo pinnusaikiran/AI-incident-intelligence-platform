@@ -28,3 +28,61 @@
 2026-07-26 17:23:16,086 | INFO | bc75e4ac-ca02-4400-8267-8b26bce847e4 | request_id.py | dispatch | POST /predict Status=422 Duration=0.002s
 2026-07-26 23:47:23,084 | INFO | - | main.py | <module> | Logging configured.
 2026-07-26 23:47:23,091 | INFO | - | main.py | <module> | Application startup completed.
+2026-07-28 21:51:37,473 | INFO | - | main.py | <module> | Logging configured.
+2026-07-28 21:51:37,473 | INFO | - | main.py | <module> | Application startup completed.
+2026-07-28 21:51:40,981 | INFO | 80096708-37e3-466d-b4b1-81be8f712361 | request_id.py | dispatch | GET /
+2026-07-28 21:51:40,984 | INFO | 80096708-37e3-466d-b4b1-81be8f712361 | request_id.py | dispatch | GET / Status=200 Duration=0.003s
+2026-07-28 21:51:41,055 | INFO | 1e6c6627-0483-4b46-a19e-78094d83f6f2 | request_id.py | dispatch | GET /favicon.ico
+2026-07-28 21:51:41,056 | INFO | 1e6c6627-0483-4b46-a19e-78094d83f6f2 | request_id.py | dispatch | GET /favicon.ico Status=404 Duration=0.000s
+2026-07-28 21:51:44,299 | INFO | 90db6c61-e282-4e77-b38e-decee092948e | request_id.py | dispatch | GET /
+2026-07-28 21:51:44,300 | INFO | 90db6c61-e282-4e77-b38e-decee092948e | request_id.py | dispatch | GET / Status=200 Duration=0.001s
+2026-07-28 21:51:44,334 | INFO | 7ed35184-b0a8-4460-a86a-ca74e636f6f2 | request_id.py | dispatch | GET /favicon.ico
+2026-07-28 21:51:44,335 | INFO | 7ed35184-b0a8-4460-a86a-ca74e636f6f2 | request_id.py | dispatch | GET /favicon.ico Status=404 Duration=0.001s
+2026-07-28 21:51:50,309 | INFO | 36bc7b4c-65da-4c5f-a11b-22ee34c74c6c | request_id.py | dispatch | GET /predict
+2026-07-28 21:51:50,310 | INFO | 36bc7b4c-65da-4c5f-a11b-22ee34c74c6c | request_id.py | dispatch | GET /predict Status=405 Duration=0.000s
+2026-07-28 21:51:56,323 | INFO | 7bfa3f09-3ad6-4039-8584-a3306f0027ec | request_id.py | dispatch | GET /docs
+2026-07-28 21:51:56,323 | INFO | 7bfa3f09-3ad6-4039-8584-a3306f0027ec | request_id.py | dispatch | GET /docs Status=200 Duration=0.000s
+2026-07-28 21:51:56,997 | INFO | 159cb079-b2b5-46f0-adfa-be015dad0233 | request_id.py | dispatch | GET /openapi.json
+2026-07-28 21:51:57,026 | INFO | 159cb079-b2b5-46f0-adfa-be015dad0233 | request_id.py | dispatch | GET /openapi.json Status=200 Duration=0.029s
+2026-07-28 21:52:56,118 | INFO | - | main.py | <module> | Logging configured.
+2026-07-28 21:52:56,119 | INFO | - | main.py | <module> | Application startup completed.
+2026-07-28 21:53:11,715 | INFO | c427a6ec-e917-4423-9d3b-d439da2cd886 | request_id.py | dispatch | GET /docs
+2026-07-28 21:53:11,716 | INFO | c427a6ec-e917-4423-9d3b-d439da2cd886 | request_id.py | dispatch | GET /docs Status=200 Duration=0.001s
+2026-07-28 21:53:11,781 | INFO | 91a945b6-1c41-420c-97e6-00d76ad5b518 | request_id.py | dispatch | GET /openapi.json
+2026-07-28 21:53:11,803 | INFO | 91a945b6-1c41-420c-97e6-00d76ad5b518 | request_id.py | dispatch | GET /openapi.json Status=200 Duration=0.021s
+2026-07-28 21:54:09,136 | INFO | fa0e6263-c478-49c2-ba21-861d25e941d0 | request_id.py | dispatch | POST /predict
+2026-07-28 21:54:09,334 | INFO | fa0e6263-c478-49c2-ba21-861d25e941d0 | request_id.py | dispatch | POST /predict Status=200 Duration=0.197s
+2026-07-29 20:38:20,686 | INFO | - | main.py | <module> | ============================================================
+2026-07-29 20:38:20,686 | INFO | - | main.py | <module> | AI Incident Intelligence Platform API v1.0.0
+2026-07-29 20:38:20,687 | INFO | - | main.py | <module> | ============================================================
+2026-07-29 20:38:20,687 | INFO | - | main.py | <module> | Logging configured
+2026-07-29 20:38:20,687 | INFO | - | main.py | <module> | Routers registered
+2026-07-29 20:38:20,689 | INFO | - | main.py | <module> | Middleware registered
+2026-07-29 20:38:20,689 | INFO | - | main.py | <module> | Exception handlers registered
+2026-07-29 20:38:20,692 | INFO | - | main.py | <module> | Routers registered
+2026-07-29 20:38:20,692 | INFO | - | main.py | <module> | Application startup completed.
+2026-07-29 20:38:20,693 | INFO | - | main.py | <module> | ============================================================
+2026-07-29 20:38:21,007 | INFO | 3ab4f324-8e77-4c21-ac51-7fe69a0e72a7 | request_id.py | dispatch | GET /docs
+2026-07-29 20:38:21,009 | INFO | 3ab4f324-8e77-4c21-ac51-7fe69a0e72a7 | request_id.py | dispatch | GET /docs Status=200 Duration=0.001s
+2026-07-29 20:38:21,139 | INFO | c2ff9869-7264-409b-b725-f42b38947709 | request_id.py | dispatch | GET /openapi.json
+2026-07-29 20:38:21,178 | INFO | c2ff9869-7264-409b-b725-f42b38947709 | request_id.py | dispatch | GET /openapi.json Status=200 Duration=0.037s
+2026-07-29 20:38:36,813 | INFO | 2e5338d8-edf2-44ff-96d6-6c4bd7a93a26 | request_id.py | dispatch | GET /health
+2026-07-29 20:38:36,820 | INFO | 2e5338d8-edf2-44ff-96d6-6c4bd7a93a26 | request_id.py | dispatch | GET /health Status=200 Duration=0.007s
+2026-07-29 20:38:39,308 | INFO | a41217c3-03f9-47de-b6e9-7b6440e717f7 | request_id.py | dispatch | GET /health
+2026-07-29 20:38:39,311 | INFO | a41217c3-03f9-47de-b6e9-7b6440e717f7 | request_id.py | dispatch | GET /health Status=200 Duration=0.002s
+2026-07-29 20:38:49,130 | INFO | 530c5d67-3250-471c-8f00-0b68d37fc7c7 | request_id.py | dispatch | GET /
+2026-07-29 20:38:49,132 | INFO | 530c5d67-3250-471c-8f00-0b68d37fc7c7 | request_id.py | dispatch | GET / Status=200 Duration=0.003s
+2026-07-29 20:40:34,036 | INFO | 1d069929-66d5-49a8-8d44-2cdbb5a0f8ab | request_id.py | dispatch | POST /predict
+2026-07-29 20:40:34,282 | INFO | 1d069929-66d5-49a8-8d44-2cdbb5a0f8ab | request_id.py | dispatch | POST /predict Status=200 Duration=0.245s
+2026-07-29 20:41:31,094 | INFO | 83c0e387-4b0c-42a4-b67c-e877db0c8f27 | request_id.py | dispatch | POST /predict
+2026-07-29 20:41:31,098 | WARNING | 83c0e387-4b0c-42a4-b67c-e877db0c8f27 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /predict
+2026-07-29 20:41:31,099 | INFO | 83c0e387-4b0c-42a4-b67c-e877db0c8f27 | request_id.py | dispatch | POST /predict Status=422 Duration=0.005s
+2026-07-29 20:44:26,480 | INFO | - | main.py | <module> | ============================================================
+2026-07-29 20:44:26,480 | INFO | - | main.py | <module> | AI Incident Intelligence Platform API v1.0.0
+2026-07-29 20:44:26,494 | INFO | - | main.py | <module> | ============================================================
+2026-07-29 20:44:26,494 | INFO | - | main.py | <module> | Logging configured
+2026-07-29 20:44:26,494 | INFO | - | main.py | <module> | Middleware registered
+2026-07-29 20:44:26,494 | INFO | - | main.py | <module> | Exception handlers registered
+2026-07-29 20:44:26,496 | INFO | - | main.py | <module> | Routers registered
+2026-07-29 20:44:26,496 | INFO | - | main.py | <module> | Application startup completed.
+2026-07-29 20:44:26,496 | INFO | - | main.py | <module> | ============================================================

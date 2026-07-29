@@ -23,7 +23,7 @@ router = APIRouter(
 def predict_incident(
     request: PredictionRequest,
     service: PredictionService = Depends(get_prediction_service)
-):
+) -> PredictionResponse:
     """
     Predict whether an IT incident will breach its SLA.
     """

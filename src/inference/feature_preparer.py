@@ -1,5 +1,5 @@
-from sklearn.pipeline import Pipeline
 import pandas as pd
+from sklearn.pipeline import Pipeline
 
 from api.schemas.prediction import PredictionRequest
 
@@ -11,7 +11,7 @@ class FeaturePreparer:
         self.pipeline=pipeline
 
 
-    def prepare(self,request:PredictionRequest):
+    def prepare(self,request:PredictionRequest)-> pd.DataFrame:
         """
         Prepare model input from the validate request
         """

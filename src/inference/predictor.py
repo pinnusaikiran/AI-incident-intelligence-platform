@@ -10,13 +10,10 @@ Returns
 PredictionResult
     Predicted class label and positive-class probability.
 """
-from typing import Any
+
 import pandas as pd
 from src.inference.prediction import PredictionResult
 from src.inference.artifacts import InferenceArtifacts
-from src.inference.validator import validate_request
-
-
 
 def predict(
     transformed_df: pd.DataFrame,
@@ -41,8 +38,7 @@ def predict(
         Predicted class label and probability of the
         positive class (SLA Breach).
     """
-    # df=validate_request(request_data=request_data,metadata=artifacts.metadata)
-    # transformed_df = artifacts.pipeline.transform(df)
+
     prediction = int(artifacts.model.predict(transformed_df)[0])
 
     probability = float(artifacts.model.predict_proba(transformed_df)[0][1])
