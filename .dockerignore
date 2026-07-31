@@ -1,1 +1,36 @@
-FROM python:3.12-slim
+#GIT
+.git
+.gitignore
+
+#Python cache
+__pycache__/
+.pyc
+
+#Virtual environment
+.venv/
+venv/
+
+#IDE files
+vscode/
+.idea/
+
+#Jupyter
+.ipynb_checkpoints/
+notebooks
+
+#Logs
+logs/
+*.log
+
+#OS files
+.DS_Store
+Thumbs.db
+
+#Testing cache
+.pytest_cache/
+
+#Environment files
+.env
+
+#Dataset
+data/
