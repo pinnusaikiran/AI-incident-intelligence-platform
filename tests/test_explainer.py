@@ -33,10 +33,10 @@ def test_generate_explaintion(artifacts,valid_data):
 
 def test_generate_explanation_invalid_request(
     artifacts,
-    invalid_data,
+    invalid_type_data,
 ):
     with pytest.raises(ValueError):
         df = validate_request(
-            request_data=invalid_data,
+            request_data=invalid_type_data,
             metadata=artifacts.metadata,
         )

@@ -34,3 +34,8 @@ Thumbs.db
 
 #Dataset
 data/
+
+#Not needed at runtime
+tests/
+docs/
+

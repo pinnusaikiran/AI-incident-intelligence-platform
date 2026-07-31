@@ -1,14 +1,17 @@
 import pytest
 
 from src.inference.prediction import PredictionResult
-from tests.conftest import artifacts,valid_data,invalid_data
 from src.inference.predictor import predict
+from src.inference.validator import validate_request
 
 
-def test_predict(artifacts, valid_data, invalid_data):
+def test_predict(artifacts, valid_data, invalid_type_data):
+
+    df = validate_request(request_data=valid_data, metadata=artifacts.metadata)
+    transformed_df = artifacts.pipeline.transform(df)
 
     result = predict(
-        request_data=valid_data,
+        transformed_df=transformed_df,
         artifacts=artifacts
     )
 
@@ -19,7 +22,7 @@ def test_predict(artifacts, valid_data, invalid_data):
     assert result.prediction in (0, 1)
 
     with pytest.raises(ValueError, match="Invalid datatype"):
-        predict(
-            request_data=invalid_data,
-            artifacts=artifacts
+        validate_request(
+            request_data=invalid_type_data,
+            metadata=artifacts.metadata,
         )

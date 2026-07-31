@@ -86,3 +86,12 @@
 2026-07-29 20:44:26,496 | INFO | - | main.py | <module> | Routers registered
 2026-07-29 20:44:26,496 | INFO | - | main.py | <module> | Application startup completed.
 2026-07-29 20:44:26,496 | INFO | - | main.py | <module> | ============================================================
+2026-07-29 20:47:19,271 | INFO | - | main.py | <module> | ============================================================
+2026-07-29 20:47:19,271 | INFO | - | main.py | <module> | AI Incident Intelligence Platform API v1.0.0
+2026-07-29 20:47:19,272 | INFO | - | main.py | <module> | ============================================================
+2026-07-29 20:47:19,272 | INFO | - | main.py | <module> | Logging configured
+2026-07-29 20:47:19,273 | INFO | - | main.py | <module> | Middleware registered
+2026-07-29 20:47:19,273 | INFO | - | main.py | <module> | Exception handlers registered
+2026-07-29 20:47:19,274 | INFO | - | main.py | <module> | Routers registered
+2026-07-29 20:47:19,275 | INFO | - | main.py | <module> | Application startup completed.
+2026-07-29 20:47:19,275 | INFO | - | main.py | <module> | ============================================================

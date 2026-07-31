@@ -2,7 +2,7 @@ import pytest
 from src.inference.prediction import PredictionResult
 from src.inference.explanation import ExplanationResult,FeatureContribution
 from src.inference.response_builder import build_response
-from src.inference.response import APIResponse,ModelInfo,PredictionResponse
+from src.inference.response import APIResponse,ModelInfo,PredictionInfo
 
 @pytest.fixture(scope='session')
 def prediction():
@@ -38,7 +38,7 @@ def test_build_response(prediction,explanation,metadata):
 
     assert isinstance(
         response.prediction,
-        PredictionResponse,
+        PredictionInfo,
     )
 
     assert isinstance(
