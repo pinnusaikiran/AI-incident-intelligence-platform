@@ -1,21 +1,34 @@
 services:
+
   api:
     build:
       context: .
       dockerfile: Dockerfile
-    image: incident-intelligence-api:latest
+
+    image: incident-intelligence-api:cpu
+
     container_name: incident-intelligence-api
+
     ports:
       - "8000:8000"
+
+    env_file:
+      - .env
+
     environment:
-      - LOG_LEVEL=INFO
-    volumes:
-      # Mount artifacts read-only so a new model can be dropped in without rebuilding the image
-      - ./artifacts:/app/artifacts:ro
+      LOG_LEVEL: INFO
+
+    restart: unless-stopped
+
     healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"
+        ]
       interval: 30s
       timeout: 5s
       retries: 3
       start_period: 20s
-    restart: unless-stopped

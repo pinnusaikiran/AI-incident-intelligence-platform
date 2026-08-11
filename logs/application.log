@@ -95,3 +95,1083 @@
 2026-07-29 20:47:19,274 | INFO | - | main.py | <module> | Routers registered
 2026-07-29 20:47:19,275 | INFO | - | main.py | <module> | Application startup completed.
 2026-07-29 20:47:19,275 | INFO | - | main.py | <module> | ============================================================
+2026-08-11 16:38:02,997 | INFO | e89922fc-8302-4904-8e7a-13978cbcafb5 | request_id.py | dispatch | GET /
+2026-08-11 16:38:03,000 | INFO | e89922fc-8302-4904-8e7a-13978cbcafb5 | request_id.py | dispatch | GET / Status=200 Duration=0.002s
+2026-08-11 16:38:03,028 | INFO | 519f15f1-aed9-4ed0-910f-cce02423de6e | request_id.py | dispatch | GET /favicon.ico
+2026-08-11 16:38:03,029 | WARNING | 519f15f1-aed9-4ed0-910f-cce02423de6e | exception_handlers.py | http_exception_handler | HTTPException while processing GET /favicon.ico : Not Found
+2026-08-11 16:38:03,029 | INFO | 519f15f1-aed9-4ed0-910f-cce02423de6e | request_id.py | dispatch | GET /favicon.ico Status=404 Duration=0.001s
+2026-08-11 16:38:27,195 | INFO | 4f4754d6-6ddb-41f0-9f2f-b714ab45972f | request_id.py | dispatch | GET /
+2026-08-11 16:38:27,196 | INFO | 4f4754d6-6ddb-41f0-9f2f-b714ab45972f | request_id.py | dispatch | GET / Status=200 Duration=0.001s
+2026-08-11 16:38:43,864 | INFO | 87010c86-de15-4e5c-8542-804be6d98d37 | request_id.py | dispatch | GET /docs
+2026-08-11 16:38:43,868 | INFO | 87010c86-de15-4e5c-8542-804be6d98d37 | request_id.py | dispatch | GET /docs Status=200 Duration=0.000s
+2026-08-11 16:38:46,593 | INFO | 6e60e18d-6864-4223-b89b-a755240cc516 | request_id.py | dispatch | GET /openapi.json
+2026-08-11 16:38:46,626 | INFO | 6e60e18d-6864-4223-b89b-a755240cc516 | request_id.py | dispatch | GET /openapi.json Status=200 Duration=0.033s
+2026-08-11 16:39:24,871 | INFO | 4f784767-5a02-48c5-9ff0-fc33bd88e330 | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 16:39:24,873 | WARNING | 4f784767-5a02-48c5-9ff0-fc33bd88e330 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /assistant/ask
+2026-08-11 16:39:24,873 | INFO | 4f784767-5a02-48c5-9ff0-fc33bd88e330 | request_id.py | dispatch | POST /assistant/ask Status=422 Duration=0.001s
+2026-08-11 16:41:27,456 | INFO | 4ba20fb7-cdb5-4db0-8506-58d83b67907d | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 16:41:27,461 | INFO | 4ba20fb7-cdb5-4db0-8506-58d83b67907d | SentenceTransformer.py | __init__ | Use pytorch device_name: cpu
+2026-08-11 16:41:27,461 | INFO | 4ba20fb7-cdb5-4db0-8506-58d83b67907d | SentenceTransformer.py | __init__ | Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-08-11 16:41:30,828 | INFO | 4ba20fb7-cdb5-4db0-8506-58d83b67907d | posthog.py | __init__ | Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-08-11 16:41:33,977 | INFO | 4ba20fb7-cdb5-4db0-8506-58d83b67907d | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 16:41:34,002 | INFO | 4ba20fb7-cdb5-4db0-8506-58d83b67907d | request_id.py | dispatch | POST /assistant/ask Status=200 Duration=6.547s
+2026-08-11 16:48:03,876 | INFO | 4c78f145-2f71-4166-8130-8dc266ac7b62 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 16:48:08,675 | INFO | 4c78f145-2f71-4166-8130-8dc266ac7b62 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 16:48:08,684 | INFO | 4c78f145-2f71-4166-8130-8dc266ac7b62 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=4.808s
+2026-08-11 16:48:34,964 | INFO | b937ea60-5a06-4c38-a8d0-4ba2b8d36658 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 16:48:39,249 | INFO | b937ea60-5a06-4c38-a8d0-4ba2b8d36658 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 16:48:39,255 | INFO | b937ea60-5a06-4c38-a8d0-4ba2b8d36658 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=4.290s
+2026-08-11 17:35:08,837 | INFO | 9c8fe97d-4a94-4968-905d-b5ff527f186d | request_id.py | dispatch | GET /docs
+2026-08-11 17:35:08,838 | INFO | 9c8fe97d-4a94-4968-905d-b5ff527f186d | request_id.py | dispatch | GET /docs Status=200 Duration=0.000s
+2026-08-11 17:35:08,987 | INFO | e1545d8d-ad86-4d91-95df-9325fd26286a | request_id.py | dispatch | GET /openapi.json
+2026-08-11 17:35:09,005 | INFO | e1545d8d-ad86-4d91-95df-9325fd26286a | request_id.py | dispatch | GET /openapi.json Status=200 Duration=0.025s
+2026-08-11 17:35:49,067 | INFO | ed778c94-95b1-430f-bb3f-1fa6635b9f06 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 17:35:49,233 | INFO | ed778c94-95b1-430f-bb3f-1fa6635b9f06 | SentenceTransformer.py | __init__ | Use pytorch device_name: cpu
+2026-08-11 17:35:49,233 | INFO | ed778c94-95b1-430f-bb3f-1fa6635b9f06 | SentenceTransformer.py | __init__ | Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-08-11 17:35:53,836 | INFO | ed778c94-95b1-430f-bb3f-1fa6635b9f06 | posthog.py | __init__ | Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-08-11 17:36:01,674 | INFO | ed778c94-95b1-430f-bb3f-1fa6635b9f06 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 17:36:02,253 | INFO | ed778c94-95b1-430f-bb3f-1fa6635b9f06 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=13.186s
+2026-08-11 17:49:35,909 | INFO | 00ac250b-93b9-4fbb-b1a5-3a30e70e5515 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 17:49:36,088 | INFO | 00ac250b-93b9-4fbb-b1a5-3a30e70e5515 | SentenceTransformer.py | __init__ | Use pytorch device_name: cpu
+2026-08-11 17:49:36,089 | INFO | 00ac250b-93b9-4fbb-b1a5-3a30e70e5515 | SentenceTransformer.py | __init__ | Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-08-11 17:49:39,499 | INFO | 00ac250b-93b9-4fbb-b1a5-3a30e70e5515 | posthog.py | __init__ | Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-08-11 17:49:51,104 | INFO | 00ac250b-93b9-4fbb-b1a5-3a30e70e5515 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 17:49:51,115 | INFO | 00ac250b-93b9-4fbb-b1a5-3a30e70e5515 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=15.206s
+2026-08-11 17:51:14,809 | INFO | 88fa9c05-79a3-4106-a294-0a78225fd05e | request_id.py | dispatch | GET /intelligence/analyze
+2026-08-11 17:51:14,810 | WARNING | 88fa9c05-79a3-4106-a294-0a78225fd05e | exception_handlers.py | http_exception_handler | HTTPException while processing GET /intelligence/analyze : Method Not Allowed
+2026-08-11 17:51:14,810 | INFO | 88fa9c05-79a3-4106-a294-0a78225fd05e | request_id.py | dispatch | GET /intelligence/analyze Status=405 Duration=0.001s
+2026-08-11 18:01:14,696 | INFO | 8ee6dc4d-5a33-4ce4-8b64-be79d35c7223 | request_id.py | dispatch | POST /predict
+2026-08-11 18:01:14,865 | INFO | 8ee6dc4d-5a33-4ce4-8b64-be79d35c7223 | request_id.py | dispatch | POST /predict Status=200 Duration=0.169s
+2026-08-11 18:01:14,867 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 200 OK"
+2026-08-11 18:01:14,872 | INFO | e2d3c52b-0cb8-46e8-9faa-90179c99d8d6 | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 18:01:14,874 | ERROR | e2d3c52b-0cb8-46e8-9faa-90179c99d8d6 | request_id.py | dispatch | POST /assistant/ask
+Traceback (most recent call last):
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\middleware\request_id.py", line 22, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\routes\assistant.py", line 42, in ask_assistant
+    response = rag_service.ask(
+               ^^^^^^^^^^^^^^^^
+TypeError: RAGService.ask() got an unexpected keyword argument 'prediction_context'
+2026-08-11 18:01:14,881 | ERROR | - | exception_handlers.py | global_exception_handler | Unhandled exception while processing POST /assistant/ask
+Traceback (most recent call last):
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\middleware\request_id.py", line 22, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\routes\assistant.py", line 42, in ask_assistant
+    response = rag_service.ask(
+               ^^^^^^^^^^^^^^^^
+TypeError: RAGService.ask() got an unexpected keyword argument 'prediction_context'
+2026-08-11 18:01:15,702 | INFO | 5e73e281-0498-46d4-b3aa-170eb5441026 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:01:15,722 | INFO | 5e73e281-0498-46d4-b3aa-170eb5441026 | SentenceTransformer.py | __init__ | Use pytorch device_name: cpu
+2026-08-11 18:01:15,722 | INFO | 5e73e281-0498-46d4-b3aa-170eb5441026 | SentenceTransformer.py | __init__ | Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-08-11 18:01:27,228 | INFO | 5e73e281-0498-46d4-b3aa-170eb5441026 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 18:01:27,243 | INFO | 5e73e281-0498-46d4-b3aa-170eb5441026 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=11.541s
+2026-08-11 18:01:27,243 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+when+an+incident+has+high+SLA+risk%3F "HTTP/1.1 200 OK"
+2026-08-11 18:01:27,243 | INFO | 72f9ceed-233b-418c-ac27-1e9fdc86fec8 | request_id.py | dispatch | POST /predict
+2026-08-11 18:01:27,243 | WARNING | 72f9ceed-233b-418c-ac27-1e9fdc86fec8 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /predict
+2026-08-11 18:01:27,243 | INFO | 72f9ceed-233b-418c-ac27-1e9fdc86fec8 | request_id.py | dispatch | POST /predict Status=422 Duration=0.003s
+2026-08-11 18:01:27,243 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:01:27,257 | INFO | 89f5a58a-3012-44c5-bd8d-0695ed22ceca | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:01:27,259 | WARNING | 89f5a58a-3012-44c5-bd8d-0695ed22ceca | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /intelligence/analyze
+2026-08-11 18:01:27,260 | INFO | 89f5a58a-3012-44c5-bd8d-0695ed22ceca | request_id.py | dispatch | POST /intelligence/analyze Status=422 Duration=0.002s
+2026-08-11 18:01:27,261 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check%3F "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:01:27,266 | INFO | 5badd26f-092f-40bc-97c2-3f40cf71230f | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 18:01:27,266 | WARNING | 5badd26f-092f-40bc-97c2-3f40cf71230f | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /assistant/ask
+2026-08-11 18:01:27,266 | INFO | 5badd26f-092f-40bc-97c2-3f40cf71230f | request_id.py | dispatch | POST /assistant/ask Status=422 Duration=0.001s
+2026-08-11 18:01:27,268 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:06:15,741 | INFO | 5a5ca05b-4f83-455c-bd52-d64f16312e7d | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 18:06:15,744 | INFO | 5a5ca05b-4f83-455c-bd52-d64f16312e7d | SentenceTransformer.py | __init__ | Use pytorch device_name: cpu
+2026-08-11 18:06:15,745 | INFO | 5a5ca05b-4f83-455c-bd52-d64f16312e7d | SentenceTransformer.py | __init__ | Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-08-11 18:06:26,100 | INFO | 5a5ca05b-4f83-455c-bd52-d64f16312e7d | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 18:06:26,109 | INFO | 5a5ca05b-4f83-455c-bd52-d64f16312e7d | request_id.py | dispatch | POST /assistant/ask Status=200 Duration=10.367s
+2026-08-11 18:06:26,110 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 200 OK"
+2026-08-11 18:07:21,319 | INFO | 39d23d13-ed21-47b3-a924-f3d7a44cc9aa | request_id.py | dispatch | POST /predict
+2026-08-11 18:07:21,491 | INFO | 39d23d13-ed21-47b3-a924-f3d7a44cc9aa | request_id.py | dispatch | POST /predict Status=200 Duration=0.172s
+2026-08-11 18:07:21,494 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 200 OK"
+2026-08-11 18:07:21,499 | INFO | 9ee31a3a-516a-4b9b-976c-1eec6faaad69 | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 18:07:21,501 | INFO | 9ee31a3a-516a-4b9b-976c-1eec6faaad69 | SentenceTransformer.py | __init__ | Use pytorch device_name: cpu
+2026-08-11 18:07:21,502 | INFO | 9ee31a3a-516a-4b9b-976c-1eec6faaad69 | SentenceTransformer.py | __init__ | Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-08-11 18:07:29,991 | INFO | 9ee31a3a-516a-4b9b-976c-1eec6faaad69 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 18:07:30,002 | INFO | 9ee31a3a-516a-4b9b-976c-1eec6faaad69 | request_id.py | dispatch | POST /assistant/ask Status=200 Duration=8.503s
+2026-08-11 18:07:30,003 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 200 OK"
+2026-08-11 18:07:30,010 | INFO | ecf65ad1-eb3e-44ef-9414-be6878edebca | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:07:36,504 | INFO | ecf65ad1-eb3e-44ef-9414-be6878edebca | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 18:07:36,506 | INFO | ecf65ad1-eb3e-44ef-9414-be6878edebca | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=6.496s
+2026-08-11 18:07:36,507 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+when+an+incident+has+high+SLA+risk%3F "HTTP/1.1 200 OK"
+2026-08-11 18:07:36,514 | INFO | 9ebfde5f-2236-4b59-b02c-bb2dea361281 | request_id.py | dispatch | POST /predict
+2026-08-11 18:07:36,515 | WARNING | 9ebfde5f-2236-4b59-b02c-bb2dea361281 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /predict
+2026-08-11 18:07:36,517 | INFO | 9ebfde5f-2236-4b59-b02c-bb2dea361281 | request_id.py | dispatch | POST /predict Status=422 Duration=0.002s
+2026-08-11 18:07:36,518 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:07:36,522 | INFO | b390efbf-1997-4eb9-a2d6-f646ed76d181 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:07:36,525 | WARNING | b390efbf-1997-4eb9-a2d6-f646ed76d181 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /intelligence/analyze
+2026-08-11 18:07:36,525 | INFO | b390efbf-1997-4eb9-a2d6-f646ed76d181 | request_id.py | dispatch | POST /intelligence/analyze Status=422 Duration=0.002s
+2026-08-11 18:07:36,526 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check%3F "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:07:36,531 | INFO | 2296da97-cd5c-499f-9e4c-90dac7ae1583 | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 18:07:36,531 | WARNING | 2296da97-cd5c-499f-9e4c-90dac7ae1583 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /assistant/ask
+2026-08-11 18:07:36,532 | INFO | 2296da97-cd5c-499f-9e4c-90dac7ae1583 | request_id.py | dispatch | POST /assistant/ask Status=422 Duration=0.001s
+2026-08-11 18:07:36,532 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:08:10,184 | INFO | 983e5a27-5306-4816-a3a1-3a65c3e9a4a4 | request_id.py | dispatch | POST /predict
+2026-08-11 18:08:10,353 | INFO | 983e5a27-5306-4816-a3a1-3a65c3e9a4a4 | request_id.py | dispatch | POST /predict Status=200 Duration=0.168s
+2026-08-11 18:08:10,355 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 200 OK"
+2026-08-11 18:08:10,361 | INFO | cc3bcd87-ea0a-458d-ada5-10edcddf473a | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 18:08:10,365 | INFO | cc3bcd87-ea0a-458d-ada5-10edcddf473a | SentenceTransformer.py | __init__ | Use pytorch device_name: cpu
+2026-08-11 18:08:10,365 | INFO | cc3bcd87-ea0a-458d-ada5-10edcddf473a | SentenceTransformer.py | __init__ | Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-08-11 18:08:19,421 | INFO | cc3bcd87-ea0a-458d-ada5-10edcddf473a | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 18:08:19,431 | INFO | cc3bcd87-ea0a-458d-ada5-10edcddf473a | request_id.py | dispatch | POST /assistant/ask Status=200 Duration=9.083s
+2026-08-11 18:08:19,447 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 200 OK"
+2026-08-11 18:08:19,453 | INFO | b12518fa-154b-4606-a14d-03f6060e2041 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:08:27,778 | INFO | b12518fa-154b-4606-a14d-03f6060e2041 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 18:08:27,788 | INFO | b12518fa-154b-4606-a14d-03f6060e2041 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=8.334s
+2026-08-11 18:08:27,790 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+when+an+incident+has+high+SLA+risk%3F "HTTP/1.1 200 OK"
+2026-08-11 18:08:27,797 | INFO | 33241623-1642-46e5-af10-7f2241d24c83 | request_id.py | dispatch | POST /predict
+2026-08-11 18:08:27,799 | WARNING | 33241623-1642-46e5-af10-7f2241d24c83 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /predict
+2026-08-11 18:08:27,799 | INFO | 33241623-1642-46e5-af10-7f2241d24c83 | request_id.py | dispatch | POST /predict Status=422 Duration=0.002s
+2026-08-11 18:08:27,800 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:08:27,806 | INFO | 67852d0d-b43a-4d01-a860-d175119801f2 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:08:27,808 | WARNING | 67852d0d-b43a-4d01-a860-d175119801f2 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /intelligence/analyze
+2026-08-11 18:08:27,808 | INFO | 67852d0d-b43a-4d01-a860-d175119801f2 | request_id.py | dispatch | POST /intelligence/analyze Status=422 Duration=0.002s
+2026-08-11 18:08:27,809 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check%3F "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:08:27,815 | INFO | 45e3961d-2cb0-44fe-8e17-baee9b99e8cd | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 18:08:27,816 | WARNING | 45e3961d-2cb0-44fe-8e17-baee9b99e8cd | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /assistant/ask
+2026-08-11 18:08:27,816 | INFO | 45e3961d-2cb0-44fe-8e17-baee9b99e8cd | request_id.py | dispatch | POST /assistant/ask Status=422 Duration=0.001s
+2026-08-11 18:08:27,817 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:11:00,104 | INFO | 03a7e398-cd44-4c87-a2c4-c0e2e9f59bf7 | request_id.py | dispatch | POST /predict
+2026-08-11 18:11:00,277 | INFO | 03a7e398-cd44-4c87-a2c4-c0e2e9f59bf7 | request_id.py | dispatch | POST /predict Status=200 Duration=0.172s
+2026-08-11 18:11:00,278 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 200 OK"
+2026-08-11 18:11:00,284 | INFO | c0c59d74-f23c-489f-8b08-db622182880d | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 18:11:00,287 | INFO | c0c59d74-f23c-489f-8b08-db622182880d | SentenceTransformer.py | __init__ | Use pytorch device_name: cpu
+2026-08-11 18:11:00,287 | INFO | c0c59d74-f23c-489f-8b08-db622182880d | SentenceTransformer.py | __init__ | Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-08-11 18:11:09,981 | INFO | c0c59d74-f23c-489f-8b08-db622182880d | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 18:11:09,981 | INFO | c0c59d74-f23c-489f-8b08-db622182880d | request_id.py | dispatch | POST /assistant/ask Status=200 Duration=9.711s
+2026-08-11 18:11:09,981 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 200 OK"
+2026-08-11 18:11:09,997 | INFO | 815645db-1906-4398-8bf9-91d6ddaae341 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:11:16,835 | INFO | 815645db-1906-4398-8bf9-91d6ddaae341 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 18:11:16,837 | INFO | 815645db-1906-4398-8bf9-91d6ddaae341 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=6.835s
+2026-08-11 18:11:16,839 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+when+an+incident+has+high+SLA+risk%3F "HTTP/1.1 200 OK"
+2026-08-11 18:11:16,845 | INFO | 520f70d1-2946-4b13-8fce-bf6fb2fc190a | request_id.py | dispatch | POST /predict
+2026-08-11 18:11:16,847 | WARNING | 520f70d1-2946-4b13-8fce-bf6fb2fc190a | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /predict
+2026-08-11 18:11:16,847 | INFO | 520f70d1-2946-4b13-8fce-bf6fb2fc190a | request_id.py | dispatch | POST /predict Status=422 Duration=0.002s
+2026-08-11 18:11:16,848 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:11:16,853 | INFO | 69468f45-8d46-4841-9ca1-3cfb3ddbbb71 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:11:16,855 | WARNING | 69468f45-8d46-4841-9ca1-3cfb3ddbbb71 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /intelligence/analyze
+2026-08-11 18:11:16,855 | INFO | 69468f45-8d46-4841-9ca1-3cfb3ddbbb71 | request_id.py | dispatch | POST /intelligence/analyze Status=422 Duration=0.002s
+2026-08-11 18:11:16,856 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check%3F "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:11:16,861 | INFO | c328aed2-79d8-4148-8a35-de58858e8568 | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 18:11:16,862 | WARNING | c328aed2-79d8-4148-8a35-de58858e8568 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /assistant/ask
+2026-08-11 18:11:16,862 | INFO | c328aed2-79d8-4148-8a35-de58858e8568 | request_id.py | dispatch | POST /assistant/ask Status=422 Duration=0.001s
+2026-08-11 18:11:16,863 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:16:57,595 | INFO | a4360a93-1044-4514-8a84-bdee2329941b | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:16:57,598 | INFO | a4360a93-1044-4514-8a84-bdee2329941b | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=0.003s
+2026-08-11 18:16:57,600 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+for+this+incident%3F "HTTP/1.1 200 OK"
+2026-08-11 18:19:41,496 | INFO | 4ece2c19-4e07-42f0-9fa2-dea57ede491b | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:19:41,500 | INFO | 4ece2c19-4e07-42f0-9fa2-dea57ede491b | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=0.003s
+2026-08-11 18:19:41,501 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+for+this+incident%3F "HTTP/1.1 200 OK"
+2026-08-11 18:19:41,506 | INFO | 4a9addd6-9056-45ba-87b0-a5fea50ed728 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:19:41,508 | ERROR | 4a9addd6-9056-45ba-87b0-a5fea50ed728 | request_id.py | dispatch | POST /intelligence/analyze
+Traceback (most recent call last):
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\middleware\request_id.py", line 22, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\routes\intelligence.py", line 49, in analyze_incident
+    return service.analyze(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\src\services\incident_intelligence_service.py", line 100, in analyze
+    rag_response = self.rag_service.ask(
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1198, in _execute_mock_call
+    raise effect
+RuntimeError: RAG service unavailable
+2026-08-11 18:19:41,516 | ERROR | - | exception_handlers.py | global_exception_handler | Unhandled exception while processing POST /intelligence/analyze
+Traceback (most recent call last):
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\middleware\request_id.py", line 22, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\routes\intelligence.py", line 49, in analyze_incident
+    return service.analyze(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\src\services\incident_intelligence_service.py", line 100, in analyze
+    rag_response = self.rag_service.ask(
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1198, in _execute_mock_call
+    raise effect
+RuntimeError: RAG service unavailable
+2026-08-11 18:21:53,016 | INFO | 87083c1b-91e3-4cba-87da-6ace54d87dbb | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:21:53,020 | INFO | 87083c1b-91e3-4cba-87da-6ace54d87dbb | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=0.003s
+2026-08-11 18:21:53,020 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+for+this+incident%3F "HTTP/1.1 200 OK"
+2026-08-11 18:21:53,027 | INFO | 7070a4a5-c80e-41e4-86d3-90a7b5a1224b | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:21:53,030 | ERROR | 7070a4a5-c80e-41e4-86d3-90a7b5a1224b | request_id.py | dispatch | POST /intelligence/analyze
+Traceback (most recent call last):
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\middleware\request_id.py", line 22, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\routes\intelligence.py", line 49, in analyze_incident
+    return service.analyze(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\src\services\incident_intelligence_service.py", line 100, in analyze
+    rag_response = self.rag_service.ask(
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1198, in _execute_mock_call
+    raise effect
+RuntimeError: RAG service unavailable
+2026-08-11 18:21:53,037 | ERROR | - | exception_handlers.py | global_exception_handler | Unhandled exception while processing POST /intelligence/analyze
+Traceback (most recent call last):
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\middleware\request_id.py", line 22, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\routes\intelligence.py", line 49, in analyze_incident
+    return service.analyze(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\src\services\incident_intelligence_service.py", line 100, in analyze
+    rag_response = self.rag_service.ask(
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1198, in _execute_mock_call
+    raise effect
+RuntimeError: RAG service unavailable
+2026-08-11 18:21:53,037 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+for+this+incident%3F "HTTP/1.1 500 Internal Server Error"
+2026-08-11 18:22:13,527 | INFO | 6ce04849-384e-4738-9140-58ad141e5171 | request_id.py | dispatch | POST /predict
+2026-08-11 18:22:13,693 | INFO | 6ce04849-384e-4738-9140-58ad141e5171 | request_id.py | dispatch | POST /predict Status=200 Duration=0.173s
+2026-08-11 18:22:13,704 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 200 OK"
+2026-08-11 18:22:13,708 | INFO | cf106c85-6b5d-41f5-a8ce-44d2b0b6c70c | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 18:22:13,708 | INFO | cf106c85-6b5d-41f5-a8ce-44d2b0b6c70c | SentenceTransformer.py | __init__ | Use pytorch device_name: cpu
+2026-08-11 18:22:13,708 | INFO | cf106c85-6b5d-41f5-a8ce-44d2b0b6c70c | SentenceTransformer.py | __init__ | Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-08-11 18:22:21,751 | INFO | cf106c85-6b5d-41f5-a8ce-44d2b0b6c70c | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 18:22:21,765 | INFO | cf106c85-6b5d-41f5-a8ce-44d2b0b6c70c | request_id.py | dispatch | POST /assistant/ask Status=200 Duration=8.055s
+2026-08-11 18:22:21,767 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 200 OK"
+2026-08-11 18:22:21,774 | INFO | f07617dd-08ed-4e44-bd9b-34f834933f17 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:22:28,945 | INFO | f07617dd-08ed-4e44-bd9b-34f834933f17 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 18:22:28,955 | INFO | f07617dd-08ed-4e44-bd9b-34f834933f17 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=7.182s
+2026-08-11 18:22:28,957 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+when+an+incident+has+high+SLA+risk%3F "HTTP/1.1 200 OK"
+2026-08-11 18:22:28,966 | INFO | 9431c1e7-d85e-4973-9da6-5493cf6c5c58 | request_id.py | dispatch | POST /predict
+2026-08-11 18:22:28,966 | WARNING | 9431c1e7-d85e-4973-9da6-5493cf6c5c58 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /predict
+2026-08-11 18:22:28,966 | INFO | 9431c1e7-d85e-4973-9da6-5493cf6c5c58 | request_id.py | dispatch | POST /predict Status=422 Duration=0.002s
+2026-08-11 18:22:28,966 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:22:28,972 | INFO | 5bb2a1f5-4b3a-40e3-948e-ab6c2e15f670 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:22:28,977 | WARNING | 5bb2a1f5-4b3a-40e3-948e-ab6c2e15f670 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /intelligence/analyze
+2026-08-11 18:22:28,977 | INFO | 5bb2a1f5-4b3a-40e3-948e-ab6c2e15f670 | request_id.py | dispatch | POST /intelligence/analyze Status=422 Duration=0.003s
+2026-08-11 18:22:28,979 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check%3F "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:22:28,980 | INFO | c3732aac-39d7-4f1d-956c-09d2b1c91c68 | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 18:22:28,980 | WARNING | c3732aac-39d7-4f1d-956c-09d2b1c91c68 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /assistant/ask
+2026-08-11 18:22:28,980 | INFO | c3732aac-39d7-4f1d-956c-09d2b1c91c68 | request_id.py | dispatch | POST /assistant/ask Status=422 Duration=0.001s
+2026-08-11 18:22:28,980 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 18:22:28,989 | INFO | f128769d-79c4-4c82-9dbd-fcbf53e43216 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:22:28,994 | INFO | f128769d-79c4-4c82-9dbd-fcbf53e43216 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=0.004s
+2026-08-11 18:22:28,996 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+for+this+incident%3F "HTTP/1.1 200 OK"
+2026-08-11 18:22:29,001 | INFO | 74cd8f15-342a-489a-af30-92072f77098b | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 18:22:29,002 | ERROR | 74cd8f15-342a-489a-af30-92072f77098b | request_id.py | dispatch | POST /intelligence/analyze
+Traceback (most recent call last):
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\middleware\request_id.py", line 22, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\routes\intelligence.py", line 49, in analyze_incident
+    return service.analyze(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\src\services\incident_intelligence_service.py", line 100, in analyze
+    rag_response = self.rag_service.ask(
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1198, in _execute_mock_call
+    raise effect
+RuntimeError: RAG service unavailable
+2026-08-11 18:22:29,007 | ERROR | - | exception_handlers.py | global_exception_handler | Unhandled exception while processing POST /intelligence/analyze
+Traceback (most recent call last):
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\middleware\request_id.py", line 22, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\routes\intelligence.py", line 49, in analyze_incident
+    return service.analyze(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\src\services\incident_intelligence_service.py", line 100, in analyze
+    rag_response = self.rag_service.ask(
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1198, in _execute_mock_call
+    raise effect
+RuntimeError: RAG service unavailable
+2026-08-11 18:22:29,012 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+for+this+incident%3F "HTTP/1.1 500 Internal Server Error"
+2026-08-11 20:32:55,726 | INFO | 2998b471-3658-4bf9-851b-6fcddc43223d | request_id.py | dispatch | POST /predict
+2026-08-11 20:32:55,940 | INFO | 2998b471-3658-4bf9-851b-6fcddc43223d | request_id.py | dispatch | POST /predict Status=200 Duration=0.213s
+2026-08-11 20:32:55,942 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 200 OK"
+2026-08-11 20:32:55,949 | INFO | c2a33b08-dd02-4595-9b0d-53029cc6a526 | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 20:32:55,951 | INFO | c2a33b08-dd02-4595-9b0d-53029cc6a526 | SentenceTransformer.py | __init__ | Use pytorch device_name: cpu
+2026-08-11 20:32:55,951 | INFO | c2a33b08-dd02-4595-9b0d-53029cc6a526 | SentenceTransformer.py | __init__ | Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-08-11 20:33:08,544 | INFO | c2a33b08-dd02-4595-9b0d-53029cc6a526 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 20:33:08,555 | INFO | c2a33b08-dd02-4595-9b0d-53029cc6a526 | request_id.py | dispatch | POST /assistant/ask Status=200 Duration=12.606s
+2026-08-11 20:33:08,556 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 200 OK"
+2026-08-11 20:33:08,562 | INFO | 504ec3b3-78af-4ea7-b168-1afba23ac1f9 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 20:33:18,436 | INFO | 504ec3b3-78af-4ea7-b168-1afba23ac1f9 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 20:33:18,438 | INFO | 504ec3b3-78af-4ea7-b168-1afba23ac1f9 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=9.876s
+2026-08-11 20:33:18,441 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+when+an+incident+has+high+SLA+risk%3F "HTTP/1.1 200 OK"
+2026-08-11 20:33:18,446 | INFO | c1110a92-033b-4476-a31b-afcc6b2c8b49 | request_id.py | dispatch | POST /predict
+2026-08-11 20:33:18,448 | WARNING | c1110a92-033b-4476-a31b-afcc6b2c8b49 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /predict
+2026-08-11 20:33:18,448 | INFO | c1110a92-033b-4476-a31b-afcc6b2c8b49 | request_id.py | dispatch | POST /predict Status=422 Duration=0.002s
+2026-08-11 20:33:18,451 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 20:33:18,456 | INFO | eea38a1d-0b34-48bc-9054-9c2fd8651b0a | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 20:33:18,460 | WARNING | eea38a1d-0b34-48bc-9054-9c2fd8651b0a | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /intelligence/analyze
+2026-08-11 20:33:18,461 | INFO | eea38a1d-0b34-48bc-9054-9c2fd8651b0a | request_id.py | dispatch | POST /intelligence/analyze Status=422 Duration=0.003s
+2026-08-11 20:33:18,463 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check%3F "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 20:33:18,469 | INFO | cb7395ce-af42-4804-9068-ad8e48825554 | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 20:33:18,469 | WARNING | cb7395ce-af42-4804-9068-ad8e48825554 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /assistant/ask
+2026-08-11 20:33:18,469 | INFO | cb7395ce-af42-4804-9068-ad8e48825554 | request_id.py | dispatch | POST /assistant/ask Status=422 Duration=0.001s
+2026-08-11 20:33:18,470 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 20:33:18,478 | INFO | 1b0bf432-3fcc-4d30-8cc4-cba482f18320 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 20:33:18,483 | INFO | 1b0bf432-3fcc-4d30-8cc4-cba482f18320 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=0.005s
+2026-08-11 20:33:18,485 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+for+this+incident%3F "HTTP/1.1 200 OK"
+2026-08-11 20:33:18,491 | INFO | cf66943e-b10d-4538-b69d-d47c26473fdf | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 20:33:18,494 | ERROR | cf66943e-b10d-4538-b69d-d47c26473fdf | request_id.py | dispatch | POST /intelligence/analyze
+Traceback (most recent call last):
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\middleware\request_id.py", line 22, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\routes\intelligence.py", line 49, in analyze_incident
+    return service.analyze(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\src\services\incident_intelligence_service.py", line 100, in analyze
+    rag_response = self.rag_service.ask(
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1198, in _execute_mock_call
+    raise effect
+RuntimeError: RAG service unavailable
+2026-08-11 20:33:18,505 | ERROR | - | exception_handlers.py | global_exception_handler | Unhandled exception while processing POST /intelligence/analyze
+Traceback (most recent call last):
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\middleware\request_id.py", line 22, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\routes\intelligence.py", line 49, in analyze_incident
+    return service.analyze(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\src\services\incident_intelligence_service.py", line 100, in analyze
+    rag_response = self.rag_service.ask(
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1198, in _execute_mock_call
+    raise effect
+RuntimeError: RAG service unavailable
+2026-08-11 20:33:18,511 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+for+this+incident%3F "HTTP/1.1 500 Internal Server Error"
+2026-08-11 21:05:49,558 | INFO | 1df51c69-ed01-46a0-bbe9-3e857ea11a9d | request_id.py | dispatch | POST /predict
+2026-08-11 21:05:49,724 | INFO | 1df51c69-ed01-46a0-bbe9-3e857ea11a9d | request_id.py | dispatch | POST /predict Status=200 Duration=0.166s
+2026-08-11 21:05:49,726 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 200 OK"
+2026-08-11 21:05:49,732 | INFO | b2c464b8-8b74-4b64-a3d3-56aa6bbc6497 | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 21:05:49,734 | INFO | b2c464b8-8b74-4b64-a3d3-56aa6bbc6497 | SentenceTransformer.py | __init__ | Use pytorch device_name: cpu
+2026-08-11 21:05:49,734 | INFO | b2c464b8-8b74-4b64-a3d3-56aa6bbc6497 | SentenceTransformer.py | __init__ | Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-08-11 21:05:59,236 | INFO | b2c464b8-8b74-4b64-a3d3-56aa6bbc6497 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 21:05:59,245 | INFO | b2c464b8-8b74-4b64-a3d3-56aa6bbc6497 | request_id.py | dispatch | POST /assistant/ask Status=200 Duration=9.513s
+2026-08-11 21:05:59,246 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 200 OK"
+2026-08-11 21:05:59,254 | INFO | 563ac7b6-f6a6-4c3f-af8d-b868fa241772 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 21:06:05,949 | INFO | 563ac7b6-f6a6-4c3f-af8d-b868fa241772 | _client.py | _send_single_request | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-11 21:06:05,953 | INFO | 563ac7b6-f6a6-4c3f-af8d-b868fa241772 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=6.700s
+2026-08-11 21:06:05,956 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+when+an+incident+has+high+SLA+risk%3F "HTTP/1.1 200 OK"
+2026-08-11 21:06:05,974 | INFO | 3baf6028-f25a-42c1-bf3e-92358287df1d | request_id.py | dispatch | POST /predict
+2026-08-11 21:06:05,977 | WARNING | 3baf6028-f25a-42c1-bf3e-92358287df1d | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /predict
+2026-08-11 21:06:05,977 | INFO | 3baf6028-f25a-42c1-bf3e-92358287df1d | request_id.py | dispatch | POST /predict Status=422 Duration=0.002s
+2026-08-11 21:06:05,979 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 21:06:05,983 | INFO | bc7ef86b-5915-4980-9f0d-b3f097a21740 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 21:06:05,985 | WARNING | bc7ef86b-5915-4980-9f0d-b3f097a21740 | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /intelligence/analyze
+2026-08-11 21:06:05,985 | INFO | bc7ef86b-5915-4980-9f0d-b3f097a21740 | request_id.py | dispatch | POST /intelligence/analyze Status=422 Duration=0.002s
+2026-08-11 21:06:05,986 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check%3F "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 21:06:05,990 | INFO | 65d5f78b-add1-45cc-b161-c766aafc49da | request_id.py | dispatch | POST /assistant/ask
+2026-08-11 21:06:05,992 | WARNING | 65d5f78b-add1-45cc-b161-c766aafc49da | exception_handlers.py | validation_exception_handler | RequestValidationError while processing POST /assistant/ask
+2026-08-11 21:06:05,992 | INFO | 65d5f78b-add1-45cc-b161-c766aafc49da | request_id.py | dispatch | POST /assistant/ask Status=422 Duration=0.001s
+2026-08-11 21:06:05,994 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/assistant/ask "HTTP/1.1 422 Unprocessable Entity"
+2026-08-11 21:06:05,998 | INFO | c7c1ec97-8576-49b1-adf5-d9113b642e26 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 21:06:06,002 | INFO | c7c1ec97-8576-49b1-adf5-d9113b642e26 | request_id.py | dispatch | POST /intelligence/analyze Status=200 Duration=0.003s
+2026-08-11 21:06:06,003 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+for+this+incident%3F "HTTP/1.1 200 OK"
+2026-08-11 21:06:06,008 | INFO | bd889958-c65a-4bf7-bfcf-f71669912cd1 | request_id.py | dispatch | POST /intelligence/analyze
+2026-08-11 21:06:06,010 | ERROR | bd889958-c65a-4bf7-bfcf-f71669912cd1 | request_id.py | dispatch | POST /intelligence/analyze
+Traceback (most recent call last):
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\middleware\request_id.py", line 22, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\routes\intelligence.py", line 49, in analyze_incident
+    return service.analyze(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\src\services\incident_intelligence_service.py", line 100, in analyze
+    rag_response = self.rag_service.ask(
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1198, in _execute_mock_call
+    raise effect
+RuntimeError: RAG service unavailable
+2026-08-11 21:06:06,016 | ERROR | - | exception_handlers.py | global_exception_handler | Unhandled exception while processing POST /intelligence/analyze
+Traceback (most recent call last):
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\middleware\request_id.py", line 22, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\api\routes\intelligence.py", line 49, in analyze_incident
+    return service.analyze(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\Desktop\PSK\Project\AI-incident-intelligence-platform\src\services\incident_intelligence_service.py", line 100, in analyze
+    rag_response = self.rag_service.ask(
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcs\anaconda3\envs\myenv\Lib\unittest\mock.py", line 1198, in _execute_mock_call
+    raise effect
+RuntimeError: RAG service unavailable
+2026-08-11 21:06:06,019 | INFO | - | _client.py | _send_single_request | HTTP Request: POST http://testserver/intelligence/analyze?question=What+should+I+check+for+this+incident%3F "HTTP/1.1 500 Internal Server Error"

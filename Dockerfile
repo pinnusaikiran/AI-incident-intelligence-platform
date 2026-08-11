@@ -1,27 +1,51 @@
 FROM python:3.12-slim
 
-# System deps needed to build some ML wheels (catboost/shap) cleanly
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
+# System dependencies
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        build-essential \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
-# Install dependencies first so this layer is cached unless requirements change
+# Install Python dependencies first for Docker layer caching
 COPY requirements.txt .
+
+# CPU-only PyTorch for CPU deployment
+RUN pip install --no-cache-dir \
+    torch==2.11.0 \
+    --index-url https://download.pytorch.org/whl/cpu
+
+# Install remaining application dependencies   
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code + artifacts
-COPY . .
+# Copy application source and runtime resources
+COPY api/ ./api/
+COPY src/ ./src/
+COPY rag/ ./rag/
+COPY rag_data/ ./rag_data/
+COPY artifacts/ ./artifacts/
 
-# Run as non-root
-RUN useradd --create-home --shell /bin/bash appuser \
+# Create non-root application user
+RUN useradd \
+        --create-home \
+        --shell /bin/bash \
+        appuser \
     && chown -R appuser:appuser /app
+
 USER appuser
 
 EXPOSE 8000
 
-HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
-    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')" || exit 1
+# Container health check
+HEALTHCHECK \
+    --interval=30s \
+    --timeout=5s \
+    --start-period=30s \
+    --retries=3 \
+    CMD python -c \
+    "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')" \
+    || exit 1
 
-CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "2"]
+# Start FastAPI
+CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]

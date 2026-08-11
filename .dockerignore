@@ -1,41 +1,48 @@
-#GIT
+# Git
 .git
 .gitignore
+.github
 
-#Python cache
+# Python cache
 __pycache__/
-.pyc
+**/__pycache__/
+*.pyc
+*.pyo
 
-#Virtual environment
+# Virtual environments
 .venv/
 venv/
 
-#IDE files
-vscode/
+# IDE
+.vscode/
 .idea/
 
-#Jupyter
+# Jupyter
 .ipynb_checkpoints/
-notebooks
+notebooks/
 
-#Logs
+# Logs
 logs/
 *.log
 
-#OS files
+# OS
 .DS_Store
 Thumbs.db
 
-#Testing cache
+# Testing
 .pytest_cache/
+.mypy_cache/
 
-#Environment files
+# Secrets / environment
 .env
 
-#Dataset
+# Training data
 data/
 
-#Not needed at runtime
+# Development-only files
 tests/
 docs/
 
+# Generated analysis artifacts
+artifacts/plots/
+artifacts/reports/
